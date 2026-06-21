@@ -1,0 +1,156 @@
+# E-Commerce Sales Data Analysis Report
+
+## Project Overview
+
+The objective of this project was to analyze e-commerce sales data and derive actionable business insights related to sales performance, customer behavior, product demand, geographic trends, and payment preferences.
+
+The analysis was performed using Python libraries including Pandas, Matplotlib, and Seaborn.
+
+---
+
+## Dataset Information
+
+The dataset contains the following fields:
+
+* Order ID
+* Customer ID
+* Gender
+* Age
+* Product Category
+* Product Name
+* Quantity
+* Price
+* Order Date
+* Payment Method
+* City
+* Rating
+
+A new column named **Sales** was created using:
+
+Sales = Quantity × Price
+
+---
+
+## 1. Sales Trend Analysis
+
+### Objective
+
+Analyze sales performance over time and identify trends.
+
+### Methodology
+
+* Converted the Order Date column to datetime format.
+* Aggregated sales on a monthly basis.
+* Visualized sales trends using a line chart.
+
+### Findings
+
+* Sales showed fluctuations across different months.
+* Certain months recorded significantly higher revenue, indicating possible seasonal demand.
+* The trend analysis helps identify peak business periods and supports future sales forecasting.
+
+---
+
+## 2. Top-Selling Products and Categories
+
+### Objective
+
+Identify products and categories generating the highest revenue.
+
+### Methodology
+
+* Grouped sales by Product Name.
+* Grouped sales by Product Category.
+* Ranked products and categories based on total sales.
+
+### Findings
+
+* A small number of products contributed a large portion of total revenue.
+* Electronics and Home categories were among the strongest-performing categories.
+* Identifying top products can help optimize inventory and marketing strategies.
+
+---
+
+## 3. Customer Segmentation Analysis
+
+### Objective
+
+Understand customer purchasing behavior based on demographics.
+
+### Methodology
+
+* Segmented customers into age groups.
+* Analyzed sales by gender.
+* Compared revenue contributions across customer segments.
+
+### Findings
+
+* Middle-aged customers contributed the highest sales revenue.
+* Sales distribution between male and female customers was relatively balanced.
+* Customer segmentation provides valuable insights for targeted marketing campaigns.
+
+---
+
+## 4. City-Wise Sales Performance
+
+### Objective
+
+Evaluate geographical sales performance.
+
+### Methodology
+
+* Grouped sales by city.
+* Ranked cities based on total revenue generated.
+
+### Findings
+
+* Some cities generated significantly higher revenue than others.
+* Top-performing cities can be prioritized for expansion and promotional activities.
+* Lower-performing cities may require additional marketing efforts.
+
+---
+
+## 5. Payment Method Preferences
+
+### Objective
+
+Analyze customer payment behavior.
+
+### Methodology
+
+* Grouped sales by payment method.
+* Calculated revenue contribution of each payment option.
+* Visualized payment method distribution.
+
+### Findings
+
+* Credit Card transactions generated the highest revenue.
+* Digital payment methods were widely adopted.
+* Understanding payment preferences helps improve customer experience and payment infrastructure.
+
+---
+
+## Business Recommendations
+
+1. Focus marketing efforts on top-performing product categories.
+2. Maintain adequate inventory levels for best-selling products.
+3. Develop targeted campaigns for high-value customer age groups.
+4. Increase promotional activities in underperforming cities.
+5. Encourage digital payment adoption through discounts and cashback offers.
+6. Use sales trend insights for demand forecasting and inventory planning.
+
+---
+
+## Tools and Technologies Used
+
+* Python
+* Pandas
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
+
+---
+
+## Conclusion
+
+The analysis provided valuable insights into sales performance, customer demographics, product demand, geographic distribution, and payment preferences. These findings can help businesses make data-driven decisions to improve revenue, customer satisfaction, and operational efficiency.
